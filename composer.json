@@ -1,0 +1,19 @@
+{
+    "name": "marcosh/php-friendly-dependencies",
+    "description": "A tool to check if you are accessing dependencies you should not have access to",
+    "authors": [
+        {
+            "name": "Marco Perone",
+            "email": "m.perone@mvlabs.it"
+        }
+    ],
+    "require": {
+        "php": "7.1",
+        "nikic/php-parser": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marcosh\\PhpFriendlyChecker\\": "src/"
+        }
+    }
+}
