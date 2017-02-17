@@ -13,6 +13,14 @@ belonging to packages that are not first dependencies of your own library.
 This is to avoid that changes in the dependencies of your dependencies could
 generate errors in your library.
 
+## install
+
+Install the library using
+
+```bash
+composer require marcosh/phriendly-dependencies
+```
+
 ## composer
 
 Install dependencies using
